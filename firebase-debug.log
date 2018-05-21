@@ -1,0 +1,50 @@
+[debug] [2018-05-05T08:12:29.111Z] ----------------------------------------------------------------------
+[debug] [2018-05-05T08:12:29.120Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\test\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-05-05T08:12:29.121Z] CLI Version:   3.18.4
+[debug] [2018-05-05T08:12:29.121Z] Platform:      win32
+[debug] [2018-05-05T08:12:29.121Z] Node Version:  v8.9.3
+[debug] [2018-05-05T08:12:29.124Z] Time:          Sat May 05 2018 17:12:29 GMT+0900 (東京 (標準時))
+[debug] [2018-05-05T08:12:29.124Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-05T08:12:29.335Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-05T08:12:29.340Z] > authorizing via signed-in user
+[debug] [2018-05-05T08:12:29.350Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-05T08:12:29.351Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/eA9ZTpWiV2BPFn3za--Y3132icekecx19rJHxTbojKM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat May 05 2018 17:12:29 GMT+0900 (東京 (標準時))
+[debug] [2018-05-05T08:12:30.082Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-05T08:12:30.097Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/vue-firebase-auth-test-74aea  
+  
+ Sat May 05 2018 17:12:30 GMT+0900 (東京 (標準時))
+[debug] [2018-05-05T08:12:31.378Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-05T08:12:31.380Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/vue-firebase-auth-test-74aea/tokens  
+  
+ Sat May 05 2018 17:12:31 GMT+0900 (東京 (標準時))
+[debug] [2018-05-05T08:12:32.414Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-05T08:12:32.417Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-auth-test-74aea  
+  
+ Sat May 05 2018 17:12:32 GMT+0900 (東京 (標準時))
+[debug] [2018-05-05T08:12:33.561Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\work\voteSystem'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-05-05T08:12:56.556Z] Fetching environment
+[debug] [2018-05-05T08:12:56.569Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/473757469215:getServerAppConfig  
+  
+ Sat May 05 2018 17:12:56 GMT+0900 (東京 (標準時))
+[debug] [2018-05-05T08:12:56.571Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/473757469215/clients/_:getWebAppConfig  
+  
+ Sat May 05 2018 17:12:56 GMT+0900 (東京 (標準時))
+[debug] [2018-05-05T08:12:57.651Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-05T08:12:58.023Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-05T08:12:58.024Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-05-05T08:13:09.630Z] Parsing function triggers
+[info] Shutting down...
